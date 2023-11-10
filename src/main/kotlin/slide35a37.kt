@@ -11,6 +11,7 @@
 //}
 
 // código alterado pelo aluno Fábio de Abreu Portella
+// estrutura de decisão - IF
 
 fun main() {
     var nota = 8
