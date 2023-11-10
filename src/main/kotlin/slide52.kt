@@ -19,8 +19,8 @@
 
 // código alterado pelo aluno Fábio de Abreu Portella
 // Assessores Customizados - Obs. a Classe Carro foi alterada nos slides
-// posteriores ao 48 tendo em vista conflito, sendo usado Carros (49) e neste
-// código Veiculo
+// posteriores ao 48 tendo em vista conflito ao usar o mesmo nome, sendo usado
+// Carros (49) e neste código Veiculo
 
 fun main() {
     val c1 = Veiculo("Doblo", 8.5f, 80f)
