@@ -18,16 +18,16 @@
 // Classes
 
 fun main() {
-    val c1 = Carro("Fiat", "Doblo", 1300f)
-    val c2 = Carro("Volkswagem", "Fusca", 1500f)
-    val c3 = Carro("Hyundai", "HB20", 1000f)
-    println(c1.marca)
-    println(c2.modelo)
-    println(c3.ccMotor)
+    val c1 = Carro("Doblo", 8.5f, 90f)
+    val c2 = Carro("Fusca", 9f, 50f )
+    val c3 = Carro("HB20", 11f, 60f)
+    println(c1.modelo)
+    println(c2.consumo)
+    println(c3.tanqueGasolina)
 }
 
 class Carro (
-    var marca: String,
     var modelo: String,
-    var ccMotor: Float
+    var consumo: Float,         // consumo em Km/l
+    var tanqueGasolina: Float   // tamanho do tanque em litros
 )
