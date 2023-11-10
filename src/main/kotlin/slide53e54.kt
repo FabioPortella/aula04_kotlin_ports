@@ -1,3 +1,6 @@
+import br.com.fabioportella.kotlin.Automovel
+import br.com.fabioportella.kotlin.Blindado
+
 // código original do slide
 
 //fun main() {

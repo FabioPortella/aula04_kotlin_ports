@@ -1,3 +1,7 @@
+package br.com.fabioportella.kotlin
+
+import br.com.fabioportella.kotlin.Automovel
+
 class Blindado(
     var espessuraVidro: Float, // espessura do vidro blindado em mm.
     var novoPeso: Float,

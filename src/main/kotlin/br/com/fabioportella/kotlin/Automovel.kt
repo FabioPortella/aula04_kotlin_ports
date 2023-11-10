@@ -1,3 +1,5 @@
+package br.com.fabioportella.kotlin
+
 open class Automovel (
     var modelo: String,
     var ccMotor: Float,
