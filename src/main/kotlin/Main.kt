@@ -2,7 +2,7 @@ import br.com.fabioportella.util.Calculadora
 
 // código original do slide já alterado
 // pelo aluno Fábio de Abreu Portella
-// corresponde aos slides 65 a 69
+// corresponde aos slides 65 a 68
 fun main() {
     // referente slide 65
     println(Calculadora().somar(2, 3))
