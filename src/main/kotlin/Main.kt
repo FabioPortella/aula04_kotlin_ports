@@ -14,5 +14,15 @@ fun main() {
     println(b.toFloat() + 1)
     println((b.toDouble() + 1).toString())
     println((b.toDouble() + 1).toString() + 1)
+
+    // referente slide 68 - Smart cast
+    var c: Any = '1'
+    var result = when (c) {
+        is String -> "$c é um texto"
+        is Int -> "$c é um número inteiro"
+        else -> "não sei qual o tipo da variável"
+    }
+    println(result)
+    println(c::class.simpleName)  // informa o tipo da variável
 }
 
